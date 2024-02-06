@@ -18,12 +18,12 @@ Data Quality and Governance: Implements data quality checks and validation rules
 
 Technologies Used:
 
-Apache Kafka
-Apache Spark (Spark Streaming)
-Twitter API
-Python (PySpark)
-Apache Hadoop (optional)
-Data Warehouse or Analytics Platform (e.g., AWS Redshift, Google BigQuery)
+Tweepy
+Apache Kafka version 2.5.0
+Apache Spark version 3.0.0
+kafka-python version 2.0.1
+pySpark 3.0.0
+Delta Lake package
 
 Usage:
 
@@ -44,11 +44,13 @@ Contributing:
 Contributions to this project are welcome! Whether it's bug fixes, feature enhancements, or documentation improvements, feel free to submit pull requests or open issues.
 
 Architecture
-Architecture
 
 Extraction
+
 Twitter API
-Tweets are streamed using Tweepy, a python based library for accessing the Twitter API. http://docs.tweepy.org/en/latest/index.html
+
+Tweets are streamed using Tweepy, a python based library for accessing the Twitter API.
+http://docs.tweepy.org/en/latest/index.html
 
 Apache Kafka
 Apache Kafka is an open-source stream-processing software platform developed by the Apache Software Foundation.
