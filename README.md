@@ -82,9 +82,6 @@ The TF-IDF product is then passed on to a classifier, Logistic Regression in thi
 The pipeline as well as trained model is saved for our use with the streaming data.
 
 Loading
+
 The transformed data can be written using the DataStreamWriter API into many built in output sinks. For debugging purposes, the console output sink can be used to display the transformed dataframe. For the purpose of this project, the data is being written into a Databricks Delta Lake storage layer.
 The data can further be analyzed or visualized using tools like Tableau or PowerBI to gather insights.
-
-License:
-
-This project is licensed under the MIT License
